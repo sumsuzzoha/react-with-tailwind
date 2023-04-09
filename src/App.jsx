@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import PriceList from './components/priceList/PriceList'
-import Dashboard from './components/dashboard/Dashboard'
+// import Dashboard from './components/dashboard/Dashboard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +14,7 @@ function App() {
   <Navbar></Navbar>
   <h1 className='text-7xl text-purple-600'>hello from tail wind</h1>
   <PriceList></PriceList>
-  <Dashboard></Dashboard>
+  {/* <Dashboard></Dashboard> */}
 </div>
   )
 }
